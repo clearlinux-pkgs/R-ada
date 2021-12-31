@@ -4,7 +4,7 @@
 #
 Name     : R-ada
 Version  : 2.0.5
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/ada_2.0-5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ada_2.0-5.tar.gz
 Summary  : The R Package Ada for Stochastic Boosting
@@ -26,10 +26,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1640883404
+export SOURCE_DATE_EPOCH=1640964713
 
 %install
-export SOURCE_DATE_EPOCH=1640883404
+export SOURCE_DATE_EPOCH=1640964713
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
