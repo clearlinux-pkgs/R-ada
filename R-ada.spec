@@ -7,7 +7,7 @@
 #
 Name     : R-ada
 Version  : 2.0.5
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/ada_2.0-5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ada_2.0-5.tar.gz
 Summary  : The R Package Ada for Stochastic Boosting
